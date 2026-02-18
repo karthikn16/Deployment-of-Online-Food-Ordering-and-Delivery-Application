@@ -372,12 +372,12 @@ The path of prometheus.yml is; cd /etc/prometheus/ ----> ls -l ----> You can see
 
   - job_name: 'node_exporter'
     static_configs:
-      - targets: ['<MonitoringVMip>:9100']
+      - targets: ['52.72.247.205:9100']
 
   - job_name: 'jenkins'
     metrics_path: '/prometheus'
     static_configs:
-      - targets: ['<your-jenkins-ip>:<your-jenkins-port>']
+      - targets: ['54.204.90.9:8080']
 
  In the above, replace <your-jenkins-ip> and <your-jenkins-port> with the appropriate IPs ----> esc ----> :wq
 
@@ -705,6 +705,7 @@ Kind Request:
 Once after you have successfully deployed the App, kindly share your experience on LinkedIn by Tagging me in your post. 
 ========================================================================================================
 												HAPPY LEARNING
+
 
 
 
